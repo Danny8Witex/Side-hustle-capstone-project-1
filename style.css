@@ -1,0 +1,355 @@
+*{
+    /* background-color: hsl(218, 28%, 13%); */
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+body{
+    background-color: hsl(218, 28%, 13%);
+}
+nav{
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+li{
+    color: white;
+    margin: 10px;
+}
+.logo{
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+.hero-section{
+    text-align: center;
+}
+.hero-header-text{
+    color: white;
+    font-family: Open Sans;
+    text-align: center;
+    margin: 20px;
+}
+.hero-sub-text{
+    color: white;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.get-started{
+    background-color:hsl(198, 60%, 50%) ;
+    border: 0;
+    padding: 12px 50px 12px 50px ;
+    border-radius: 30px;
+    color: white;
+    font-family: Open Sans;
+}
+.about-card{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.card-1{
+    /* margin: 200px; */
+    width: 100%;
+    height: 50vh;
+    margin: 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card1-text{
+    color: white;
+    font-family: Open Sans;
+}
+.card1-subtext{
+    color: white;
+    font-family: Open Sans;
+    font-weight: 200;
+}
+.card-2{
+    /* margin: 200px; */
+    width: 100%;
+    height: 50vh;
+    margin: 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card2-text{
+    color: white;
+    font-family: Open Sans;
+}
+.card2-subtext{
+    color: white;
+    font-family: Open Sans;
+    font-weight: 200;
+}
+
+.card-3{
+    /* margin: 200px; */
+    width: 100%;
+    height: 50vh;
+    margin: 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card3-text{
+    color: white;
+    font-family: Open Sans;
+}
+.card3-subtext{
+    color: white;
+    font-family: Open Sans;
+    font-weight: 200;
+}
+
+.card-4{
+    /* margin: 200px; */
+    width: 100%;
+    height: 50vh;
+    margin: 50px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card4-text{
+    color: white;
+    font-family: Open Sans;
+}
+.card4-subtext{
+    color: white;
+    font-family: Open Sans;
+    font-weight: 200;
+}
+.productive{
+    display: flex;
+    /* height: 80%;q*/
+    width: 100%;
+    justify-content: space-around;
+    /* margin: 50px; */
+
+}
+
+.productive-description{
+    color: white;
+    /* height: 20px; */
+    margin: 100px 20px 100px 10px;
+    justify-content: left;
+   
+    /* width: 60%; */
+}
+.stay-productive{
+    margin: 20px 0px 20px 0px ;
+    font-family: Open Sans;
+}
+.never-let{
+    margin: 20px 0px 20px 0px ;
+    width: 100%;
+    font-weight: 300;
+    font-family: Open Sans;
+
+}
+.securely{
+    font-family: Open Sans;
+    font-weight: 300;
+    margin:20px 0px 20px 0px ;
+}
+.link{
+    font-family: Open Sans;
+    font-weight: 200;
+    color: hsl(176, 68%, 64%);
+    text-decoration:none;
+    display: flex;
+}
+.arrow{
+    margin-left: 10px ;
+}
+.testimonial{
+    background-image: url(./bg-quotes.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 150px 20px ;
+}
+.testimonial-card-1{
+    background-color:hsl(219, 30%, 18%);
+    width: 25%;
+    /* height: 100% ; */
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.testimonial-1{
+    color: white;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom:25px ;
+}
+.inner-testimonial{
+    margin: 30px;
+}
+.profile{
+    display: flex;
+}
+.profile-image{
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.name{
+    color: white;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 14px;
+}
+.title{
+    color: white;
+    font-family: Open Sans;
+    font-weight: 200;
+    font-size: 14px;
+}
+.early-access{
+color: white;
+margin-bottom: 20px;
+}
+.early-access-sub-text{
+color: white;
+}
+
+.newsletter{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(217, 28%, 15%) ;
+    width: 80%;
+    height: 167px;
+    margin: 70px;
+    padding: 43px 1px;
+    position: relative;
+    left: 50px;
+    /* top:px ; */
+}
+.early-access{
+font-family: Open Sans;
+
+}
+.early-access-sub-text{
+    font-family: Open Sans;
+    font-weight: 15;
+    /* font-size: larger; */
+    font-size: 14px;
+}
+
+#email{
+    height: 30px;
+    padding: 5px 30px;
+    width: 500px;
+    border-radius: 30px;
+    border: none;
+    margin: 30px 10px 20px 10px;
+}
+
+.footer{
+    color: white;
+    /* display: flex; */
+    background-image: url(./bg-curvy-desktop.svg);
+}
+.footer-sub-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-icon{
+    height:10%;
+    width: 10%;
+    margin: 0px 0px 20px 50px;
+}
+.footer-icon{
+    color: white;
+}
+.location{
+    display: flex;
+}
+.location-icon{
+    margin-right: 30px;
+    height: 20px;
+}
+.phone{
+    margin-right: 30px;
+}
+.email{
+    margin-right: 30px;
+}
+.email-detail{
+    margin-top: 30px;
+}
+
+ol{
+    list-style: none;
+    margin-top: 0px;  
+}
+@media only screen and (max-width: 375px) {
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: Open Sans;
+      box-sizing: border-box;
+    }
+    .logo{
+        object-fit: contain;
+        width:30%;
+        max-height: 50px;
+        /* margin-right: ; */
+
+    }
+    .nav{
+        /* width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around; */
+    }
+    ul{
+        width: 70%;
+    }
+    li{
+        margin: 5px;
+    }
+    .hero-section{
+        object-fit: contain;
+        width:100%;
+        height: 100 %;  
+        margin-bottom: 300px;
+        text-align: center;
+        align-items: center; 
+    }
+    /* .hero-image{
+         object-fit: contain;
+        width:50px;
+        height: 50px;
+    } */
+  }
+
